@@ -16,6 +16,7 @@ class App extends Component {
   }
 }
 
+//explains what data you want from the store
 function mapStateToProps(state) {
   return { count: state.count, name: state.name };
 }
